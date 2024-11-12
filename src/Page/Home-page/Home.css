@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homepage-container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.homepage-body-container {
+    width: 100%;
+    height: 100%;
+    background-image: url('./src/img/homepage-background.png'); /* พื้นหลังของหน้าเป็นภาพ */
+    background-size: cover; /* ทำให้ภาพครอบคลุมพื้นที่ */
+    background-position: center; /* จัดภาพให้อยู่ตรงกลาง */
+    background-repeat: no-repeat; /* ป้องกันการซ้ำของภาพ */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-body-container {
+    width: 1200px;
+    height: 750px;
+    margin: 125px 360px;
+    background-color: rgba(55, 58, 64, 0.8);
+    border-radius: 50px;
+}
+
+.inner-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+/* .item-description {
+    
+} */
+
+
+.item-button {
+    width: 200px;
+    height: 60px;
+    background-color: #FF8539;
+    border: none;
+    border-radius: 50px;
+    padding: 0;
+    font-size: 20px;
+    color: #ffff;
+    box-shadow: inset -5px -8px 4px rgba(0, 0, 0, 0.25);
+}
