@@ -19,7 +19,7 @@ function Home() {
                         <div className='item-description'>
                             <p>ส่วนของการแสดงเอกสารที่เกี่ยวข้องขององค์กรสำหรับหาข้อมูลรายละเอียดของกรมเชื้อเพลิงธรรมชาติ กระทรวงพลังงาน</p>
                         </div>
-                        <button className='item-button' onClick={doclist}>Show Document</button>
+                        <button className='item-button' >Show Document</button>
                         {/* notfinish */}
                     </div>
                 </div>
